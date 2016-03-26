@@ -1,0 +1,14 @@
+{
+	"id":"GopiCustomWidget",
+	"title":"GopiCustomWidget",
+	"category":"GopiCustomWidgets",
+	"description":"Gopi Custom Widget",
+	"definition":"GopiCustomWidget.json",
+	"preview":"images/comment_preview.png",
+	"icon":"images/comment_icon.png",
+	"runtimeClassName":"icmsample.gopi.pgwidget.helloworld.GopiCustomWidget",
+	"help":"",
+	"previewThumbnail":"images/comment_thumb.png",
+	"properties":[],
+	"events":[]
+}

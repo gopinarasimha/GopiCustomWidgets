@@ -1,0 +1,4 @@
+[
+{"label":"Enter Name","className":"dijit/form/TextBox"},
+{"label":"Enter Age","className":"dijit/form/TextBox"}
+]

@@ -1,0 +1,70 @@
+{
+	"Name":"IBM Case Manager Gopi Custom Widget Package",
+	"Description":"IBM Case Manager Gopi Custom Widget Package",
+	"Locale":"",
+	"Version":"1.0",
+	"Categories":[
+		{
+			"id":"GopiCustomWidgets",
+			"title":"Gopi Custom Widgets"
+		}
+	],
+	"Widgets":[
+		{
+			"id":"GopiCustomWidget",
+			"title":"GopiCustomWidget",
+			"category":"GopiCustomWidgets",
+			"description":"Gopi Custom Widget",
+			"definition":"GopiCustomWidget.json",
+			"preview":"images/comment_preview.png",
+			"icon":"images/comment_icon.png",
+			"runtimeClassName":"icmsample.gopi.pgwidget.helloworld.GopiCustomWidget",
+			"help":"",
+			"previewThumbnail":"images/comment_thumb.png"
+		},{
+			"id":"handlerWidget",
+			"title": "handlerWidget",
+			"category": "GopiCustomWidgets",
+			"description": "Gopi handler Widget",
+			"definition": "Handler.json",
+			"preview": "images/caseinfo_preview.png",
+			"icon": "images/caseinfo_icon.png",
+			"runtimeClassName":"icmsample.gopi.pgwidget.handler.Handler",
+			"help": "acmwrh126.htm",
+			"previewThumbnail": "images/caseinfo_thumb.gif"
+		},{
+			"id": "publisherWidget",
+			"title": "publisherWidget",
+			"category": "GopiCustomWidgets",
+			"description": "Gopi Publisher widget",
+			"definition": "Publisher.json",
+			"preview": "images/caseinfo_preview.png",
+			"icon": "images/caseinfo_icon.png",
+			"runtimeClassName": "icmsample.gopi.pgwidget.publisher.Publisher",
+			"help": "acmwrh126.htm",
+			"previewThumbnail": "images/caseinfo_thumb.gif"
+		},{
+			"id": "TabbedPaneWidget",
+			"title": "TabbedPane Widget",
+			"category":"GopiCustomWidgets",
+			"description":"this widget shows the tabContainer",
+			"definition": "TabedContainerWidget.json",
+			"preview": "images/caseinfo_preview.png",
+			"icon": "images/caseinfo_icon.png",
+			"runtimeClassName":"icmsample.gopi.pgwidget.tabbedlayout.RenderTabContainer",
+			"help":"acmwrh126.htm",
+			"previewThumbnail": "images/caseinfo_thumb.gif"
+	},{
+		"id": "WorkDetailWidget",
+		"title": "Work Detail Widget",
+		"category":"GopiCustomWidgets",
+		"description":"this widget shows the tabContainer and validates the data against the Workitem and Case",
+		"definition": "WorkDetailValidator.json",
+		"preview": "images/caseinfo_preview.png",
+		"icon": "images/caseinfo_icon.png",
+		"runtimeClassName":"icmsample.gopi.pgwidget.workdetailcustomwidget.WorkDetailValidator",
+		"help":"acmwrh126.htm",
+		"previewThumbnail": "images/caseinfo_thumb.gif"
+	}
+	]
+}

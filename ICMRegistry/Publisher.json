@@ -1,0 +1,38 @@
+{
+	"id": "publisherWidget",
+	"title": "publisherWidget",
+	"category": "GopiCustomWidgets",
+	"description": "this widget is for publisher",
+	"definition": "Publisher.json",
+	"preview": "images/caseinfo_preview.png",
+	"icon": "images/caseinfo_icon.png",
+	"runtimeClassName": "icmsample.gopi.pgwidget.publisher.Publisher",
+	"help": "acmwrh126.htm",
+	"previewThumbnail": "images/caseinfo_thumb.gif",
+	"properties": [{
+		"propertyType":"property",
+		"type": "string",
+		"id": "PreferredHeight",
+		"defaultValue": "100%",
+		"disabled": true,
+		"required": false,
+		"visibility": false,
+		"title": "Preferred Height"
+	},{
+		"propertyType":"property",
+		"type": "boolean",
+		"id": "commentsAreReadOnly",
+		"defaultValue": false,
+		"required": true,
+		"visibility": true,
+		"title": "Comments are read only"
+	}],
+	"events":[{
+	
+	        "id":"icm.SearchCases",
+			"title":"Custom Search Event Suresh",
+			"functionName":"handleICM_SearchCasesEvent",
+			"direction":"broadcast",
+			"description":"Custom Event Suresh"
+	}]
+}
